@@ -4,3 +4,4 @@
 
 5.docker stop [container-id]
  docker rm [container-id]
+docker run -d -it -p127.0.0.1:9393:9300 -v %cd%/inputFile.txt:/home/docker/data infracloudio/csvserver:latest bash
